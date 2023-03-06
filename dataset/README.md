@@ -1,2 +1,2 @@
 # Dataset info
-...to be provided by organizers..
+The `training` folder contains 24 json files. Each json file represents a category and contains a set of items with all necessary information as extracted by the [CUHE platform](https://cuhe.in-two.com). For each of the items this file also contains the `apiResponse` element, which corresponds to the complete API response from [Europeana](https://www.europeana.eu). The Europeana API description is available [here](https://pro.europeana.eu/page/intro), the `apiResponse` follows the EDM (Europeana Data Model) specification which is available [here](https://pro.europeana.eu/page/intro#edm).
