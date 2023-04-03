@@ -1,1 +1,1 @@
-folder for which users will create puill requests for submissions (Recommended editorials subtask)
+folder for which users will create pull requests for submissions (Recommended editorials subtask)
