@@ -37,7 +37,7 @@ Please note that the recommended editorials should be represented by their ids, 
 
 **Naming conventions**
 
-* The query `json` files will be named according to the following scheme: `query[n].json` with `n = 1, 2, 3`. Example file name: ``query1.json` 
+* The query `json` files will be named according to the following scheme: `query[n].json` with `n = 1, 2, 3`. Example file name: `query1.json` 
 * The output from your recommendation system should be named according to the following scheme: `recommendations[n].json`, where `n = 1, 2, 3` Example file name: `recommendations1.json`. 
 
 Please note that you need to answer all queries and provide exactly 3 output files. 

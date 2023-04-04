@@ -35,7 +35,7 @@ Please note that the recommended items should be represented by their `linkURL` 
 
 **Naming conventions**
 
-* The query `json` files will be named according to the following scheme: `query[n].json` with `n = 1..10`. Example file name: ``query1.json` 
+* The query `json` files will be named according to the following scheme: `query[n].json` with `n = 1..10`. Example file name: `query1.json` 
 * The output from your recommendation system should be named according to the following scheme: `recommendations[n].json`, where `n = 1..10` Example file name: `recommendations1.json`.
 
 Please note that you need to answer all queries and provide exactly 10 output files. 
