@@ -2,13 +2,13 @@ Folder for which users will create pull requests for submissions (Recommending i
 
 **Input and Output format**
 
-For the recommending items subtask, you will have to answer 10 queries. Each query will consists of 1 item which will be represented with its `linkURL` (see element `linkURL` in the json files of the training dataset). Each query will will be given to you as a json file in the following format:
+For the recommending items subtask, you will have to answer 10 queries. Each query will point to a list of exactly 1 item. The format of this list is the same as the one used to parsing the training datasets. Each query will will be given to you as a json file in the following format:
 
  ```json
 {
     "task": "items",
     "query": [
-        "https://cuhe.in-two.com/recommendation-task/post/1234"
+        "https://cuhe.in-two.com/recommendation-task/f26342b0-8ddd-4296-9c5d-2bc117e585b5=format=json"
     ]
 }
 ```
@@ -19,7 +19,7 @@ As a result of your recommendation system, we expect from you that you extend th
 {
     "task": "items",
     "query": [
-        "https://cuhe.in-two.com/recommendation-task/post/1234"
+        "https://cuhe.in-two.com/recommendation-task/f26342b0-8ddd-4296-9c5d-2bc117e585b5=format=json"
     ],
     "recommendations": [ 
         "https://cuhe.in-two.com/recommendation-task/post/2345",
